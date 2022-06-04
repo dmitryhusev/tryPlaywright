@@ -1,20 +1,20 @@
 [ {
-  "uid" : "b7022bfe67b2abe5",
+  "uid" : "dcfff2a979dd1dc6",
   "name" : "should clear text input field when an item is added",
   "time" : {
-    "start" : 1654369273616,
-    "stop" : 1654369273900,
-    "duration" : 284
+    "start" : 1654376242263,
+    "stop" : 1654376247355,
+    "duration" : 5092
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "8300b2a3509f2c74",
+  "uid" : "a1ff214e332ed5c4",
   "name" : "should allow me to add todo items",
   "time" : {
-    "start" : 1654369273000,
-    "stop" : 1654369273614,
-    "duration" : 614
+    "start" : 1654376235557,
+    "stop" : 1654376236759,
+    "duration" : 1202
   },
   "status" : "passed",
   "severity" : "normal"

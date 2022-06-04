@@ -2,19 +2,20 @@
   "chromium example.spec.ts New Todo should clear text input field when an item is added" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7022bfe67b2abe5",
-      "status" : "passed",
+      "uid" : "dcfff2a979dd1dc6",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 5000ms exceeded.",
       "time" : {
-        "start" : 1654369273616,
-        "stop" : 1654369273900,
-        "duration" : 284
+        "start" : 1654376242263,
+        "stop" : 1654376247355,
+        "duration" : 5092
       }
     } ]
   },
@@ -28,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8300b2a3509f2c74",
+      "uid" : "a1ff214e332ed5c4",
       "status" : "passed",
       "time" : {
-        "start" : 1654369273000,
-        "stop" : 1654369273614,
-        "duration" : 614
+        "start" : 1654376235557,
+        "stop" : 1654376236759,
+        "duration" : 1202
       }
     } ]
   }
