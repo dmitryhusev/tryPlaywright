@@ -1,3 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Sat Jun 04 20:57:22 UTC 2022","Sat Jun 04 20:57:27 UTC 2022","5092","chromium","example.spec.ts","New Todo","","","should clear text input field when an item is added",""
-"passed","Sat Jun 04 20:57:15 UTC 2022","Sat Jun 04 20:57:16 UTC 2022","1202","chromium","example.spec.ts","New Todo","","","should allow me to add todo items",""
+"broken","Sat Jun 04 21:06:26 UTC 2022","Sat Jun 04 21:06:32 UTC 2022","5094","chromium","example.spec.ts","New Todo","","","should clear text input field when an item is added",""
+"passed","Sat Jun 04 21:06:20 UTC 2022","Sat Jun 04 21:06:21 UTC 2022","1048","chromium","example.spec.ts","New Todo","","","should allow me to add todo items",""

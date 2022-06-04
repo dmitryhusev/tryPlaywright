@@ -1,12 +1,12 @@
 {
-  "uid" : "dcfff2a979dd1dc6",
+  "uid" : "1eee313e99a6799b",
   "name" : "should clear text input field when an item is added",
   "fullName" : "should clear text input field when an item is added",
   "historyId" : "chromium example.spec.ts New Todo should clear text input field when an item is added",
   "time" : {
-    "start" : 1654376242263,
-    "stop" : 1654376247355,
-    "duration" : 5092
+    "start" : 1654376781467,
+    "stop" : 1654376786505,
+    "duration" : 5038
   },
   "status" : "broken",
   "statusMessage" : "Timeout of 5000ms exceeded.",
@@ -14,7 +14,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
@@ -23,25 +23,25 @@
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654376242263,
-        "stop" : 1654376242701,
-        "duration" : 438
+        "start" : 1654376781468,
+        "stop" : 1654376781682,
+        "duration" : 214
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "beforeEach hook",
         "time" : {
-          "start" : 1654376242264,
-          "stop" : 1654376242700,
-          "duration" : 436
+          "start" : 1654376781468,
+          "stop" : 1654376781682,
+          "duration" : 214
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "browserContext.newPage",
           "time" : {
-            "start" : 1654376242416,
-            "stop" : 1654376242457,
-            "duration" : 41
+            "start" : 1654376781473,
+            "stop" : 1654376781503,
+            "duration" : 30
           },
           "status" : "passed",
           "steps" : [ ],
@@ -54,9 +54,9 @@
         }, {
           "name" : "page.goto(https://demo.playwright.dev/todomvc)",
           "time" : {
-            "start" : 1654376242459,
-            "stop" : 1654376242700,
-            "duration" : 241
+            "start" : 1654376781503,
+            "stop" : 1654376781682,
+            "duration" : 179
           },
           "status" : "passed",
           "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "locator.fill(.new-todo)",
       "time" : {
-        "start" : 1654376242702,
-        "stop" : 1654376242737,
-        "duration" : 35
+        "start" : 1654376781683,
+        "stop" : 1654376781712,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "locator.press(.new-todo, Enter)",
       "time" : {
-        "start" : 1654376242738,
-        "stop" : 1654376242780,
-        "duration" : 42
+        "start" : 1654376781712,
+        "stop" : 1654376781740,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "expect.toBeEmpty",
       "time" : {
-        "start" : 1654376242789,
-        "stop" : 1654376247330,
-        "duration" : 4541
+        "start" : 1654376781741,
+        "stop" : 1654376786480,
+        "duration" : 4739
       },
       "status" : "failed",
       "steps" : [ ],
@@ -128,17 +128,17 @@
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654376247263,
-        "stop" : 1654376247354,
-        "duration" : 91
+        "start" : 1654376786472,
+        "stop" : 1654376786504,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "browserContext.close",
         "time" : {
-          "start" : 1654376247324,
-          "stop" : 1654376247331,
-          "duration" : 7
+          "start" : 1654376786474,
+          "stop" : 1654376786480,
+          "duration" : 6
         },
         "status" : "passed",
         "steps" : [ ],
@@ -156,16 +156,10 @@
       "shouldDisplayMessage" : false,
       "hasContent" : true
     } ],
-    "attachments" : [ {
-      "uid" : "216bdd002aa6850",
-      "name" : "trace",
-      "source" : "216bdd002aa6850.ZIP",
-      "type" : "application/zip",
-      "size" : 145716
-    } ],
+    "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 9,
-    "attachmentsCount" : 1,
+    "attachmentsCount" : 0,
     "shouldDisplayMessage" : true,
     "hasContent" : true
   },
@@ -191,27 +185,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ {
-      "uid" : "daa9bc5e7860e2b3",
-      "status" : "broken",
-      "statusDetails" : "Timeout of 5000ms exceeded.",
-      "time" : {
-        "start" : 1654376236761,
-        "stop" : 1654376241801,
-        "duration" : 5040
-      }
-    } ],
-    "categories" : [ {
-      "name" : "Test defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dcfff2a979dd1dc6.json",
+  "source" : "1eee313e99a6799b.json",
   "parameterValues" : [ ]
 }

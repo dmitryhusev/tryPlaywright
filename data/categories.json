@@ -6,13 +6,13 @@
       "name" : "Timeout of 5000ms exceeded.",
       "children" : [ {
         "name" : "should clear text input field when an item is added",
-        "uid" : "dcfff2a979dd1dc6",
+        "uid" : "2b32f5685865b579",
         "parentUid" : "15badea204deea2b428d6bf2fb1531ef",
         "status" : "broken",
         "time" : {
-          "start" : 1654376242263,
-          "stop" : 1654376247355,
-          "duration" : 5092
+          "start" : 1654376786974,
+          "stop" : 1654376792068,
+          "duration" : 5094
         },
         "flaky" : false,
         "newFailed" : false,
