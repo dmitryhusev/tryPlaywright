@@ -14,7 +14,7 @@ test.describe('New Todo', () => {
   test('should allow me to add todo items', async ({ page }) => {
     await page.locator('.new-todo').fill(TODO_ITEMS[1]);
     await page.locator('.new-todo').press('Enter');
-    await expect(page.locator('.view label1')).toHaveText([
+    await expect(page.locator('.view label')).toHaveText([
       TODO_ITEMS[1]
     ]);
   });
