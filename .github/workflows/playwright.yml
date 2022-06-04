@@ -25,11 +25,13 @@ jobs:
       if: always()
       run: allure generate allure-results
     - uses: actions/upload-artifact@v2
+      if: always()
       with:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
     - name: Deploy
+      if: always()
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
