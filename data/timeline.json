@@ -1,31 +1,14 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "should clear text input field when an item is added",
-    "uid" : "3cad0b99bfe60b8e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1654378782801,
-      "stop" : 1654378787844,
-      "duration" : 5043
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "should allow me to add todo items",
-    "uid" : "3781e7c3e0e56c13",
+    "uid" : "a55ec8ace6235bb5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1654378781675,
-      "stop" : 1654378782796,
-      "duration" : 1121
+      "start" : 1654383057094,
+      "stop" : 1654383057945,
+      "duration" : 851
     },
     "flaky" : false,
     "newFailed" : false,
@@ -36,19 +19,19 @@
     "parameters" : [ ]
   }, {
     "name" : "should clear text input field when an item is added",
-    "uid" : "e53c8057481f9bf4",
+    "uid" : "5eac6e3fe8812cea",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1654378788409,
-      "stop" : 1654378793512,
-      "duration" : 5103
+      "start" : 1654383057947,
+      "stop" : 1654383058285,
+      "duration" : 338
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 1,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   } ],

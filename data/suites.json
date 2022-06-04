@@ -8,13 +8,13 @@
         "name" : "New Todo",
         "children" : [ {
           "name" : "should allow me to add todo items",
-          "uid" : "3781e7c3e0e56c13",
+          "uid" : "a55ec8ace6235bb5",
           "parentUid" : "24f779b18aa14ab97216454590b13b81",
           "status" : "passed",
           "time" : {
-            "start" : 1654378781675,
-            "stop" : 1654378782796,
-            "duration" : 1121
+            "start" : 1654383057094,
+            "stop" : 1654383057945,
+            "duration" : 851
           },
           "flaky" : false,
           "newFailed" : false,
@@ -25,19 +25,19 @@
           "parameters" : [ ]
         }, {
           "name" : "should clear text input field when an item is added",
-          "uid" : "e53c8057481f9bf4",
+          "uid" : "5eac6e3fe8812cea",
           "parentUid" : "24f779b18aa14ab97216454590b13b81",
-          "status" : "broken",
+          "status" : "passed",
           "time" : {
-            "start" : 1654378788409,
-            "stop" : 1654378793512,
-            "duration" : 5103
+            "start" : 1654383057947,
+            "stop" : 1654383058285,
+            "duration" : 338
           },
           "flaky" : false,
           "newFailed" : false,
           "newPassed" : false,
           "newBroken" : false,
-          "retriesCount" : 1,
+          "retriesCount" : 0,
           "retriesStatusChange" : false,
           "parameters" : [ ]
         } ],

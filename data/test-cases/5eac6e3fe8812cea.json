@@ -1,15 +1,14 @@
 {
-  "uid" : "3cad0b99bfe60b8e",
+  "uid" : "5eac6e3fe8812cea",
   "name" : "should clear text input field when an item is added",
   "fullName" : "should clear text input field when an item is added",
   "historyId" : "chromium example.spec.ts New Todo should clear text input field when an item is added",
   "time" : {
-    "start" : 1654378782801,
-    "stop" : 1654378787844,
-    "duration" : 5043
+    "start" : 1654383057947,
+    "stop" : 1654383058285,
+    "duration" : 338
   },
-  "status" : "broken",
-  "statusMessage" : "Timeout of 5000ms exceeded.",
+  "status" : "passed",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -18,30 +17,29 @@
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "testStage" : {
-    "status" : "broken",
-    "statusMessage" : "Timeout of 5000ms exceeded.",
+    "status" : "passed",
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654378782801,
-        "stop" : 1654378783034,
-        "duration" : 233
+        "start" : 1654383057947,
+        "stop" : 1654383058211,
+        "duration" : 264
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "beforeEach hook",
         "time" : {
-          "start" : 1654378782801,
-          "stop" : 1654378783034,
-          "duration" : 233
+          "start" : 1654383057947,
+          "stop" : 1654383058211,
+          "duration" : 264
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "browserContext.newPage",
           "time" : {
-            "start" : 1654378782808,
-            "stop" : 1654378782845,
-            "duration" : 37
+            "start" : 1654383057952,
+            "stop" : 1654383057980,
+            "duration" : 28
           },
           "status" : "passed",
           "steps" : [ ],
@@ -54,9 +52,9 @@
         }, {
           "name" : "page.goto(https://demo.playwright.dev/todomvc)",
           "time" : {
-            "start" : 1654378782846,
-            "stop" : 1654378783034,
-            "duration" : 188
+            "start" : 1654383057980,
+            "stop" : 1654383058211,
+            "duration" : 231
           },
           "status" : "passed",
           "steps" : [ ],
@@ -83,9 +81,9 @@
     }, {
       "name" : "locator.fill(.new-todo)",
       "time" : {
-        "start" : 1654378783035,
-        "stop" : 1654378783073,
-        "duration" : 38
+        "start" : 1654383058212,
+        "stop" : 1654383058241,
+        "duration" : 29
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +96,9 @@
     }, {
       "name" : "locator.press(.new-todo, Enter)",
       "time" : {
-        "start" : 1654378783074,
-        "stop" : 1654378783106,
-        "duration" : 32
+        "start" : 1654383058241,
+        "stop" : 1654383058271,
+        "duration" : 30
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,11 +111,11 @@
     }, {
       "name" : "expect.toBeEmpty",
       "time" : {
-        "start" : 1654378783107,
-        "stop" : 1654378787814,
-        "duration" : 4707
+        "start" : 1654383058272,
+        "stop" : 1654383058280,
+        "duration" : 8
       },
-      "status" : "failed",
+      "status" : "passed",
       "steps" : [ ],
       "attachments" : [ ],
       "parameters" : [ ],
@@ -128,17 +126,17 @@
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654378787805,
-        "stop" : 1654378787844,
-        "duration" : 39
+        "start" : 1654383058280,
+        "stop" : 1654383058285,
+        "duration" : 5
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "browserContext.close",
         "time" : {
-          "start" : 1654378787807,
-          "stop" : 1654378787814,
-          "duration" : 7
+          "start" : 1654383058281,
+          "stop" : 1654383058284,
+          "duration" : 3
         },
         "status" : "passed",
         "steps" : [ ],
@@ -160,7 +158,7 @@
     "parameters" : [ ],
     "stepsCount" : 9,
     "attachmentsCount" : 0,
-    "shouldDisplayMessage" : true,
+    "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ ],
@@ -185,12 +183,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "3cad0b99bfe60b8e.json",
+  "source" : "5eac6e3fe8812cea.json",
   "parameterValues" : [ ]
 }
