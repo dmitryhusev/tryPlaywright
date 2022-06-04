@@ -22,9 +22,9 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
     - name: Generate allure report
+      if: always()
       run: allure generate allure-results
     - uses: actions/upload-artifact@v2
-      if: always()
       with:
         name: allure-report
         path: allure-report/
