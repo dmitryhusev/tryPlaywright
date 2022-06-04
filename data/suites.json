@@ -1,0 +1,51 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "chromium",
+    "children" : [ {
+      "name" : "example.spec.ts",
+      "children" : [ {
+        "name" : "New Todo",
+        "children" : [ {
+          "name" : "should allow me to add todo items",
+          "uid" : "cec1b5df1ee20ec6",
+          "parentUid" : "24f779b18aa14ab97216454590b13b81",
+          "status" : "passed",
+          "time" : {
+            "start" : 1654368791150,
+            "stop" : 1654368791887,
+            "duration" : 737
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "should clear text input field when an item is added",
+          "uid" : "d26545aa1bfc2791",
+          "parentUid" : "24f779b18aa14ab97216454590b13b81",
+          "status" : "passed",
+          "time" : {
+            "start" : 1654368791889,
+            "stop" : 1654368792226,
+            "duration" : 337
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24f779b18aa14ab97216454590b13b81"
+      } ],
+      "uid" : "e4b544034979f0ed71670fbfdd0e6370"
+    } ],
+    "uid" : "36c900977e1d8b81a2c6893cc82bfc01"
+  } ]
+}

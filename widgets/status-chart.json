@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d26545aa1bfc2791",
+  "name" : "should clear text input field when an item is added",
+  "time" : {
+    "start" : 1654368791889,
+    "stop" : 1654368792226,
+    "duration" : 337
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cec1b5df1ee20ec6",
+  "name" : "should allow me to add todo items",
+  "time" : {
+    "start" : 1654368791150,
+    "stop" : 1654368791887,
+    "duration" : 737
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,40 @@
+{
+  "chromium example.spec.ts New Todo should clear text input field when an item is added" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d26545aa1bfc2791",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654368791889,
+        "stop" : 1654368792226,
+        "duration" : 337
+      }
+    } ]
+  },
+  "chromium example.spec.ts New Todo should allow me to add todo items" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cec1b5df1ee20ec6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654368791150,
+        "stop" : 1654368791887,
+        "duration" : 737
+      }
+    } ]
+  }
+}
