@@ -22,6 +22,6 @@ test.describe('New Todo', () => {
   test('should clear text input field when an item is added', async ({ page }) => {
     await page.locator('.new-todo').fill(TODO_ITEMS[0]);
     await page.locator('.new-todo').press('Enter');
-    await expect(page.locator('.new-todo1')).toBeEmpty();
+    await expect(page.locator('.new-todo')).toBeEmpty();
   });
 });
