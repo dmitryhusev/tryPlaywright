@@ -1,12 +1,12 @@
 {
-  "uid" : "1eee313e99a6799b",
+  "uid" : "3cad0b99bfe60b8e",
   "name" : "should clear text input field when an item is added",
   "fullName" : "should clear text input field when an item is added",
   "historyId" : "chromium example.spec.ts New Todo should clear text input field when an item is added",
   "time" : {
-    "start" : 1654376781467,
-    "stop" : 1654376786505,
-    "duration" : 5038
+    "start" : 1654378782801,
+    "stop" : 1654378787844,
+    "duration" : 5043
   },
   "status" : "broken",
   "statusMessage" : "Timeout of 5000ms exceeded.",
@@ -23,25 +23,25 @@
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654376781468,
-        "stop" : 1654376781682,
-        "duration" : 214
+        "start" : 1654378782801,
+        "stop" : 1654378783034,
+        "duration" : 233
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "beforeEach hook",
         "time" : {
-          "start" : 1654376781468,
-          "stop" : 1654376781682,
-          "duration" : 214
+          "start" : 1654378782801,
+          "stop" : 1654378783034,
+          "duration" : 233
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "browserContext.newPage",
           "time" : {
-            "start" : 1654376781473,
-            "stop" : 1654376781503,
-            "duration" : 30
+            "start" : 1654378782808,
+            "stop" : 1654378782845,
+            "duration" : 37
           },
           "status" : "passed",
           "steps" : [ ],
@@ -54,9 +54,9 @@
         }, {
           "name" : "page.goto(https://demo.playwright.dev/todomvc)",
           "time" : {
-            "start" : 1654376781503,
-            "stop" : 1654376781682,
-            "duration" : 179
+            "start" : 1654378782846,
+            "stop" : 1654378783034,
+            "duration" : 188
           },
           "status" : "passed",
           "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "locator.fill(.new-todo)",
       "time" : {
-        "start" : 1654376781683,
-        "stop" : 1654376781712,
-        "duration" : 29
+        "start" : 1654378783035,
+        "stop" : 1654378783073,
+        "duration" : 38
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "locator.press(.new-todo, Enter)",
       "time" : {
-        "start" : 1654376781712,
-        "stop" : 1654376781740,
-        "duration" : 28
+        "start" : 1654378783074,
+        "stop" : 1654378783106,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "expect.toBeEmpty",
       "time" : {
-        "start" : 1654376781741,
-        "stop" : 1654376786480,
-        "duration" : 4739
+        "start" : 1654378783107,
+        "stop" : 1654378787814,
+        "duration" : 4707
       },
       "status" : "failed",
       "steps" : [ ],
@@ -128,17 +128,17 @@
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654376786472,
-        "stop" : 1654376786504,
-        "duration" : 32
+        "start" : 1654378787805,
+        "stop" : 1654378787844,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "browserContext.close",
         "time" : {
-          "start" : 1654376786474,
-          "stop" : 1654376786480,
-          "duration" : 6
+          "start" : 1654378787807,
+          "stop" : 1654378787814,
+          "duration" : 7
         },
         "status" : "passed",
         "steps" : [ ],
@@ -191,6 +191,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "1eee313e99a6799b.json",
+  "source" : "3cad0b99bfe60b8e.json",
   "parameterValues" : [ ]
 }

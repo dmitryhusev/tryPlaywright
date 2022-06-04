@@ -1,12 +1,12 @@
 {
-  "uid" : "2b32f5685865b579",
+  "uid" : "e53c8057481f9bf4",
   "name" : "should clear text input field when an item is added",
   "fullName" : "should clear text input field when an item is added",
   "historyId" : "chromium example.spec.ts New Todo should clear text input field when an item is added",
   "time" : {
-    "start" : 1654376786974,
-    "stop" : 1654376792068,
-    "duration" : 5094
+    "start" : 1654378788409,
+    "stop" : 1654378793512,
+    "duration" : 5103
   },
   "status" : "broken",
   "statusMessage" : "Timeout of 5000ms exceeded.",
@@ -23,25 +23,25 @@
     "steps" : [ {
       "name" : "Before Hooks",
       "time" : {
-        "start" : 1654376786975,
-        "stop" : 1654376787421,
-        "duration" : 446
+        "start" : 1654378788410,
+        "stop" : 1654378788903,
+        "duration" : 493
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "beforeEach hook",
         "time" : {
-          "start" : 1654376786976,
-          "stop" : 1654376787421,
-          "duration" : 445
+          "start" : 1654378788411,
+          "stop" : 1654378788903,
+          "duration" : 492
         },
         "status" : "passed",
         "steps" : [ {
           "name" : "browserContext.newPage",
           "time" : {
-            "start" : 1654376787140,
-            "stop" : 1654376787183,
-            "duration" : 43
+            "start" : 1654378788594,
+            "stop" : 1654378788641,
+            "duration" : 47
           },
           "status" : "passed",
           "steps" : [ ],
@@ -54,9 +54,9 @@
         }, {
           "name" : "page.goto(https://demo.playwright.dev/todomvc)",
           "time" : {
-            "start" : 1654376787185,
-            "stop" : 1654376787421,
-            "duration" : 236
+            "start" : 1654378788644,
+            "stop" : 1654378788903,
+            "duration" : 259
           },
           "status" : "passed",
           "steps" : [ ],
@@ -83,9 +83,9 @@
     }, {
       "name" : "locator.fill(.new-todo)",
       "time" : {
-        "start" : 1654376787423,
-        "stop" : 1654376787458,
-        "duration" : 35
+        "start" : 1654378788905,
+        "stop" : 1654378788950,
+        "duration" : 45
       },
       "status" : "passed",
       "steps" : [ ],
@@ -98,9 +98,9 @@
     }, {
       "name" : "locator.press(.new-todo, Enter)",
       "time" : {
-        "start" : 1654376787459,
-        "stop" : 1654376787501,
-        "duration" : 42
+        "start" : 1654378788952,
+        "stop" : 1654378789011,
+        "duration" : 59
       },
       "status" : "passed",
       "steps" : [ ],
@@ -113,9 +113,9 @@
     }, {
       "name" : "expect.toBeEmpty",
       "time" : {
-        "start" : 1654376787511,
-        "stop" : 1654376792027,
-        "duration" : 4516
+        "start" : 1654378789015,
+        "stop" : 1654378793480,
+        "duration" : 4465
       },
       "status" : "failed",
       "steps" : [ ],
@@ -128,17 +128,17 @@
     }, {
       "name" : "After Hooks",
       "time" : {
-        "start" : 1654376791976,
-        "stop" : 1654376792064,
-        "duration" : 88
+        "start" : 1654378793410,
+        "stop" : 1654378793510,
+        "duration" : 100
       },
       "status" : "passed",
       "steps" : [ {
         "name" : "browserContext.close",
         "time" : {
-          "start" : 1654376792023,
-          "stop" : 1654376792030,
-          "duration" : 7
+          "start" : 1654378793469,
+          "stop" : 1654378793485,
+          "duration" : 16
         },
         "status" : "passed",
         "steps" : [ ],
@@ -157,11 +157,11 @@
       "hasContent" : true
     } ],
     "attachments" : [ {
-      "uid" : "1260afe825bf63ee",
+      "uid" : "9fcfaa3cce6708e4",
       "name" : "trace",
-      "source" : "1260afe825bf63ee.ZIP",
+      "source" : "9fcfaa3cce6708e4.ZIP",
       "type" : "application/zip",
-      "size" : 134849
+      "size" : 135022
     } ],
     "parameters" : [ ],
     "stepsCount" : 9,
@@ -196,13 +196,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "1eee313e99a6799b",
+      "uid" : "3cad0b99bfe60b8e",
       "status" : "broken",
       "statusDetails" : "Timeout of 5000ms exceeded.",
       "time" : {
-        "start" : 1654376781467,
-        "stop" : 1654376786505,
-        "duration" : 5038
+        "start" : 1654378782801,
+        "stop" : 1654378787844,
+        "duration" : 5043
       }
     } ],
     "categories" : [ {
@@ -212,6 +212,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "2b32f5685865b579.json",
+  "source" : "e53c8057481f9bf4.json",
   "parameterValues" : [ ]
 }
